@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Ben Tschetter Final Project</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="https://bentschetter.github.io/bens-laptop/" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="https://bentschetter.github.io/bens-laptop/project1/home.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PROJECT 1</a>
+    <a href="https://bentschetter.github.io/bens-laptop/project1/grids.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">GRIDS</a>
+    <a href="https://bentschetter.github.io/bens-laptop/animateddrawing/" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ANIMATION</a>
+    <a href="https://bentschetter.github.io/bens-laptop/project2/index.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PROJECT 2</a>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://images.squarespace-cdn.com/content/v1/5dd2d103ff0d436c78efe2da/1588624246605-KXLXM25FCC9R48HCHG7R/ke17ZwdGBToddI8pDm48kE6fqImPzAl8Slyev7RfiJ97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0hReLB75oIvKxcDxwlnLXaa65LFZvRn7gts42yjOuhmLEWk_EIunyFmz6ZrykGGkKA/img1.jpg?format=2500w" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://images.squarespace-cdn.com/content/v1/5dd2d103ff0d436c78efe2da/1588624248454-ZDZWF3ZAGD05YBD9GB9A/ke17ZwdGBToddI8pDm48kE6fqImPzAl8Slyev7RfiJ97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0hReLB75oIvKxcDxwlnLXaa65LFZvRn7gts42yjOuhmLEWk_EIunyFmz6ZrykGGkKA/img3.jpg?format=2500w" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://images.squarespace-cdn.com/content/v1/5dd2d103ff0d436c78efe2da/1588624246549-DVBPD14NFC0E7LDY8LRP/ke17ZwdGBToddI8pDm48kE6fqImPzAl8Slyev7RfiJ97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0hReLB75oIvKxcDxwlnLXaa65LFZvRn7gts42yjOuhmLEWk_EIunyFmz6ZrykGGkKA/img5.jpg?format=2500w" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">   
+    </div>
+  </div>
+    <div class="mySlides w3-display-container w3-center">
+    <img src="https://images.squarespace-cdn.com/content/v1/5dd2d103ff0d436c78efe2da/1588624247915-D993MJP1YNOL1B30TLX9/ke17ZwdGBToddI8pDm48kE6fqImPzAl8Slyev7RfiJ97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0hReLB75oIvKxcDxwlnLXaa65LFZvRn7gts42yjOuhmLEWk_EIunyFmz6ZrykGGkKA/img7.jpg?format=2500w" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+    </div>
+  </div>
+    <div class="mySlides w3-display-container w3-center">
+    <img src="https://images.squarespace-cdn.com/content/v1/5dd2d103ff0d436c78efe2da/1588624250123-UCAM5H7O40XDA5BUSH42/ke17ZwdGBToddI8pDm48kE6fqImPzAl8Slyev7RfiJ97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0hReLB75oIvKxcDxwlnLXaa65LFZvRn7gts42yjOuhmLEWk_EIunyFmz6ZrykGGkKA/img9.jpg?format=2500w" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">   
+    </div>
+  </div>
+    <div class="mySlides w3-display-container w3-center">
+    <img src="https://images.squarespace-cdn.com/content/v1/5dd2d103ff0d436c78efe2da/1588624249187-9D1RD93YKCJ5ZQ0I5BHO/ke17ZwdGBToddI8pDm48kE6fqImPzAl8Slyev7RfiJ97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0hReLB75oIvKxcDxwlnLXaa65LFZvRn7gts42yjOuhmLEWk_EIunyFmz6ZrykGGkKA/img10.jpg?format=2500w" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small"> 
+    </div>
+  </div>
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">THE TRUTH ABOUT LIFE ON THE ROAD</h2>
+    <p class="w3-opacity"><i>By Ben Tschetter for ARTD 418</i></p>
+    <p class="w3-justify">Growing up as a musician with a fascination into the world of rockstars and musicians, one of my biggest wonders was what it would be like working on tour with famous professional musicians. What would it be like hanging out after the show with these musicians and their friends? What would it be like capturing special moments of history in photos of musicians hanging out backstage before a show, or the band sitting in the studio writing their next big hit? What would it be like walking the streets of new cities each day alongside musicians who have written the songs that defined your life? What would it be like riding around in the large tour bus or planes? These were all questions I asked myself while watching documentaries about Nirvana, Rush, Guns N’ Roses, and countless other favorite bands while I should have been studying for tests or writing papers. With such an obsession with music and a desire to be involved in that world one day, I naturally began to drift in that direction until my dream became a reality. Here’s what life with a touring band is really like.
+</p>
+      <p class="w3-justify">It began by applying to photograph a Christian band I had been familiar with for many years, since I was a child. Photographing for the college newspaper, I packed up my camera and drove an hour to a small town where Sidewalk Prophets were playing a Christmas show. Typically when photographing bands, you shoot for your publication, upload the photos and write a review, and that’s the extent of that. However, this show was different. Upon receiving my photo pass, I was greeted by the band’s tour manager, a position I was unfamiliar with at the time, and shortly after, the band’s main manager. Long-story-short, I was asked if I could send some photos their way that they could use on social media. They loved the photos and were gracious for me sharing the images of the band’s show that night.
+
+</p>
+      <p class="w3-justify">Fast-forward another couple months to the spring of 2019. The band returned to the area, and looking for another show to shoot, I headed that way again. This time, I didn’t shoot for the newspaper, but I emailed the manager again to see if they wanted me to come shoot for them. He quickly accepted and I was on my way. For the second time I greeted the crew, shot the show, and was complimented on my work. Another long-story-short, I received an email from the manager after the show asking if I wanted to call him and chat about coming on the road with the band, whom I had listened to since before middle school.
+</p>
+      <p class="w3-justify">I accepted this offer, and a couple months later I joined them on the road for much of the summer, hitting 16 shows in 11 states over the course of shortly more than a month. For most artists, life on the road is not as glamorous as it may sound. If you aren’t the Beatles, Metallica, Drake, or Taylor Swift, there’s a high chance road life consists of much time away from your family, hard work, and living in close-quarters with a lot of people on a tour bus. 
+
+</p>
+      <p class="w3-justify">Each day consists of waking up early, usually after a late night, loading all the band’s equipment out, and the crew - photographer included - setting up for the evening’s show. Setting up lasts at least half the day, and is often performed under poor weather conditions for outdoor shows and things not going your way. There’s plenty of heavy lifting, long responses for questions, missing items, and a million other things that can go wrong. The days are long, and on top of these long days, you are missing your family and friends whom you haven’t seen for weeks. When bedtime comes, there are rarely hotel days. Band and crew members, big and small, are confined to small bunks on either side of the tour bus’s central hallway to sleep, and the only private space you have to yourself is when you pull the curtain to your bunk shut. Twelve people live together in a tour bus, which is only slightly bigger than a motor home, and just about the same experience. Meals for the tour are hit-or-miss. Some days hosts at the venue deliver four-course meals to the band and everyone eats like a king. Other days, a meal is thrown together and hardly filling. Some days meals are very nutritious, and other days leaves you feeling awful despite a hard day of work.
+
+</p>
+      <p class="w3-justify">However, despite the downsides, while a difficult job, this life is fun and rewarding. The greatest benefit is the friendships with each band and crew member you develop. Living in one place together and spending day after day alongside these people over time creates strong and lasting friendships with every person involved. Countless nights were spent sitting in the living area / public space of the tour bus having fun conversations and playing games with dear friends. While the rumor of bands being able to explore each new city they visit simply isn’t true, the rare off-day to check out a new town is always a welcomed surprise, and the people you meet in each city prove to be blessings on each show day. 
+
+</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/cIYuzG8Exkc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p class="w3-justify">The band members are simply human beings too. “Down to earth” is a great way to describe them. Being a band who has had radio hits in the Christian music world for years, and has toured the country and gained a following of thousands of fans, it would have been easy for the band to grow egos or a “Holier than thou” attitude. Instead, each band member truly cared for fans as they greeted and had conversations with every person to approach them before or after the shows, despite how tired they may have been, how late it was, or how many other things they could have been doing. These people became friends to all and never strayed from their values as human beings and Christians. On the bus, they all showed their humor and human side, playing round after round of Super Smash Bros on the TV as the bus travelled across state lines for the next show, and making everybody weak from laughter.
+
+</p>
+      <p class="w3-justify">As a photographer, being on tour means total creative control. Media photographers are typically only allowed to shoot the show from the pit, and for a limited number of songs. The tour photographer is with the band and can go anywhere he/she desires, from the back of the crowd, to on the stage getting the camera right in the singer’s face, complete creative freedom is yours. Each night presents new obstacles, such as different stage setups, better or worse lighting, the mood of the band members, and much more. The challenge, however, is welcomed as it pushes you to explore new creative outlooks to get fresh shots each night. It helps you work with what you’ve got and create something beautiful despite ideal photo conditions. You are also documenting a page in the band’s history - a band who speaks to countless people through song. The most exciting nights, however, were with the bigger crowds. Each night was played to thousands of people, though those numbers ranged from two thousand to nearly fifteen thousand. The passion, excitement, and energy from large crowds translates directly to the artist, and vice versa, creating a memorable evening for all.
+
+</p>
+      <p class="w3-justify">Although there were many long days and frustrating moments on the road, it was rewarding through creative growth, a unique experience, and strong friendships being made. To this day, thanks to this experience, I am still in touch with the whole crew and talk to them regularly, and I now feel like a seasoned concert photographer. There are ups and downs to each tour, but while it can be tough, far different than what most people would expect, it is certainly a positive and a once-in-a-lifetime experience.
+</p>
+      
+      <iframe style="display: none;" width="560" height="315" src="https://www.youtube.com/embed/14OiCb63rRU?rel=0&autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p>Name</p>
+        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Name</p>
+        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Name</p>
+        <img src="/w3images/bandmember.jpg" class="w3-round" alt="Random Name" style="width:60%">
+      </div>
+    </div>
+  </div>
+
+  
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Webpage for ARTD418</p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
